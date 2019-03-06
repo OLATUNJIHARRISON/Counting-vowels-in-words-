@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(177, 42, 42);
+}
+
+.nav-bar, .buttom {
+    background: rgb(19, 1, 1);
+    height: 10vh;
+}
+
+.nav-group {
+    list-style: none;
+    float: right;
+    /* clear: both; */
+}
+
+.harisoft {
+    text-decoration: none;
+    background: orange;
+    line-height: 10vh;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    margin-right: 2vw;
+    border-radius: 5px;
+    height: 10vh;
+}
+
+h1 {
+    color: #fff;
+    display: inline-block;
+    line-height: 10vh;
+    margin-left: 5px;
+}
+
+.main {
+    background: #fff;
+    margin: 10vh auto;
+    width: 40%;
+    padding: 7% 1%;
+}
+
+form input, button {
+    display: block;
+    margin: 7vh 0;
+    font-size: 20px;
+    padding: 4px;
+}
+
+form button {
+    background: linear-gradient(to bottom, #fff, orange)
+}
+
+.buttom {
+    height: initial;
+    color: #fff
+}
+/*.male{*/
+}
+.go{
+    /*margin-right: 500px;*/
+    /*margin-bottom: 4000px;*/
+    position: center;
+    display: flex;
+}
+.come{
+    text-align: center;
+    margin-left: 10px;
+}
+.tick{
+    text-align: center;
+    margin-top: 15px;
+}
+.year{
+    padding: 10px;
+    width:20%;
+    /*display: block;*/
+    background-color: rgb(177, 42, 42);
+    margin-right: auto;
+}
+.month{
+    padding: 10px;
+    width:20%;
+    /*display: block;*/
+    background-color: rgb(177, 42, 42);
+    margin-right: auto;
+}
+.date{
+    padding: 10px;
+    width:20%;
+    /*display: block;*/
+    background-color: rgb(177, 42, 42);
+    margin-right: auto;
+}
+.gender{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .main {
+        width: 95%;
+    }
+    .gender{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 140px;
+    }
+}
+@media screen and (max-width: 745px) {
+    .main {
+        width: 95%;
+    }
+    .gender{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 280px;
+    }
+}
+@media screen and (max-width: 485px) {
+    .main {
+        width: 95%;
+    }
+    .gender{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 170px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .main {
+        width: 95%;
+    }
+    .gender{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 170px;
+    }
+}
+@media screen and (max-width: 557px) {
+    .main {
+        width: 95%;
+    }
+    .gender{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 170px;
+    }
+}
